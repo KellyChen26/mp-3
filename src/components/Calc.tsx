@@ -142,7 +142,7 @@ export default function Calc() {
             </StyledButtons>
 
             <StyledOutput>
-                <Result result={result}>{result}</Result>
+                <Result result={Number(result)}>{result}</Result>
             </StyledOutput>
 
         </StyledCalculator>
